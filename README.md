@@ -1,7 +1,8 @@
-# MiniEditor
-I have created an editor like vim using ncurses library. It is able to insert the text on command (ESC + i). It can also read the text from any file and show it on to the window. I have written the code for save text (after inserting more text) into file but currently it's not working. 
-       I will write code for
-    1) inserting at the cursor without disturbing other text
-    2) delete word 
-    3) delete line 
-    4) copy word/line and paste at cursor position  
+# TextEditor (using GTK+ 2.0)
+I have created an text editor like gedit using GTK library. It can open a existing file, creat a new file, save the changes, 
+can do many operations like inserting at cursor, cut, copy, paste, delete, find , find and replace, go to line etc.
+       To install my software you have to download it first, and then 
+       1) type 'make' in terminal
+       2) type './project'  or './project <filename>' 
+       3) text editor is opened 
+       4) to close text editor use ctrl+q or quit in file menu
